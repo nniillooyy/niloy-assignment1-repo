@@ -1,0 +1,96 @@
+body{
+    font-family: 'Noto Serif', serif;
+    margin: 0%;
+}
+h1{
+    font-size: 80px;
+    font-size-adjust: none;
+}
+h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 40px;
+}
+
+.border-line{
+    border-radius: 10px;
+    border-left: 6px solid;
+    border-image: linear-gradient(red, rgb(139, 77, 77));
+    border-image-slice: 1;
+    
+}
+p{
+    font-size: large;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.orange-color{
+    color: orange;
+}
+.flex-container{
+    display: flex;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.button-linked{
+    text-decoration: none;
+    background-color:rgb(230, 64, 64);
+    padding: 10px 40px;
+    
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 60%;
+    padding-right: 5%;
+    padding-top: 20px;
+}
+
+.mission-2022-item{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+
+/*-------------class:mission 2022------------*/
+.mission-2022{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+#mission-web{
+
+    background-color: #edf3fc;
+    border-radius: 20px;
+    text-align: left;
+
+  
+}
+#vision-web{
+    background-color: rgb(241, 222, 219);
+    border-radius: 20px;
+    text-align: left;
+
+}
+#goals-web{
+    background-color: lightgoldenrodyellow;
+    border-radius: 20px;
+    text-align: left;
+   
+}
