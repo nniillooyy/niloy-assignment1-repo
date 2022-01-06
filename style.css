@@ -1,49 +1,53 @@
 body{
     font-family: 'Noto Serif', serif;
     margin: 0%;
+}
 
-}
 h1{
-    font-size: 80px;
- 
+    font-size: 60px;    
 }
+
 h2{
     font-size: 60px;
     font-weight: 700;
 }
 
 h3{
-    font-size: 40px;
+    font-size: 30px;
+    font-family: sans-serif;
 }
 
-
 .border-line{
-    border-radius: 10px;
+    border-radius: 5%; 
     border-left: 6px solid;
     border-image: linear-gradient(red, rgb(139, 77, 77));
     border-image-slice: 1;
-    
 }
+
 p{
-    font-size: large;
-    font-weight: 600;
-    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    line-height: 25px;
 }
 
 .orange-color{
     color: orange;
 }
+
 .flex-container{
     display: flex;
     margin-bottom: 80px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .button-linked{
     text-decoration: none;
     background-color:rgb(230, 64, 64);
     padding: 10px 40px;
-    
     color: white;
     font-weight: 700;
     border-radius: 5px;
@@ -68,11 +72,11 @@ p{
 }
 
 
-/*-------------class:mission 2022------------*/
+
 .mission-2022{
     width: 100%;
     text-align: center;
-    padding-top: 100px;
+
 }
 
 
@@ -100,7 +104,6 @@ p{
 }
 
 
-/*-------------3rd Partition: Development Without Milits------------*/
 
 .dev-limits{
     background-image: url(images/shapes/shape-1.png);
@@ -108,9 +111,57 @@ p{
     background-position: left;
     text-align: left;
     background-size: 300px;
-    margin-right: 60px;
+    margin-right: 5%;
     margin-left: 5%;
-    padding-right: 10%;
-    text-size-adjust: 100px;
+}
+
  
+.global-community{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: left;
+    background-size: 300px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+h4{
+    font-size: 50px;
+    margin-top: 5px;
+
+}
+.build-app{
+    background-image: url(images/shapes/shape-2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: left;
+    background-size: 150px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    text-align: center;
+
+}
+
+.build-app-item{
+
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+}
+
+#build-app-image{
+    margin-left: 5%;
+}
+#text-app{
+    margin-right: 5%;
+
+}
+
+footer{
+    color: white;
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
 }
